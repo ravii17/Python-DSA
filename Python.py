@@ -1,3 +1,5 @@
+#Recursion and function
+# We write to print t he factorial of the function
 def fact(n):
     if n==0:
         return 6
