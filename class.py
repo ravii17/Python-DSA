@@ -1,3 +1,4 @@
+"""
 class student():
     college_name= "KIIT"
     def __init__ (self, name , marks, age ):
@@ -21,5 +22,20 @@ print(student.college_name)
 
 s1.welcome()
 
-
+"""
 #class & attribute 
+
+class Student:
+    def __init__ (self, name, marks):
+        self.name = name 
+        self.marks = marks
+
+    def get_avg(self):
+        sum = 0
+        for val in self.marks:
+            sum += val
+        print ("hi", self.name , "your avg of marks is :", sum/3)
+
+
+s1 = Student("Rigya" , [99,99,99])
+s1.get_avg()
