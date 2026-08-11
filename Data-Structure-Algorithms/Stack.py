@@ -2,7 +2,7 @@
 stack = []
 
 # append() function to push element in the stack
-stack.append('g')
+stack.append('e')
 stack.append('f')
 stack.append('g')
 
@@ -14,8 +14,7 @@ print(stack)
 print('\nElements popped from stack:')
 print(stack.pop())
 print(stack.pop())
-print(stack.pop())
-print(stack.push(e))
+
 
 print('\nStack after elements are popped:')
 print(stack)
