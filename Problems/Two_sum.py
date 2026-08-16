@@ -1,7 +1,10 @@
 # A single array is given and we have to find the sum.
 Length = int(input("Enter the index length of array: "))
 Target = 11
-arr = [int(input("Enter the next element of the array here: ")) for i in range(Length)]
+# arr = [int(input("Enter the next element of the array here: ")) for i in range(Length)]
+
+arr =[int(input("Enter the next Element of the Array here: ")) for i in range(Length)]
+
 
 print("Array:", arr)
 
